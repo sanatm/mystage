@@ -1,4 +1,5 @@
 ActiveAdmin.register Activities do
+  permit_params :title, :skills, :description, :link
 
   
   # See permitted parameters documentation:
